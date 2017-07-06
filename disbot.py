@@ -56,7 +56,7 @@ async def on_message(message):
 		
 	elif "fuck you" in message.content and message.author.name != "Dis-Bot":
 		print(message.author.name + ' ' + message.content)
-		await client.send_message(message.channel, 'no, fuck you!')
+		await client.send_message(message.channel, 'no, fuckkkkk you!')
 		
 	elif message.content.startswith('!sleep '):
 		msg = message.content
